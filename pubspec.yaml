@@ -1,0 +1,43 @@
+name: image_cache
+description: A flutter package which shows an image. Gets it from an URL and then saves it in your local storage.
+version: 1.0.1
+repository: https://github.com/iriber/image_cache
+
+# This package supports all platforms listed below.
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+topics:
+  - cache
+  - file
+  - image
+
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  file_cache_provider: ^1.0.0
+  flutter:
+    sdk: flutter
+  loading_animation_widget: ^1.2.0+4
+  path_provider: ^2.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  network_image_mock: ^2.0.1
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
